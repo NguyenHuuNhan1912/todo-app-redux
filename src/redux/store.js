@@ -12,8 +12,8 @@
 // Redux Toolkit
 
 import {configureStore} from '@reduxjs/toolkit';
-import filtersSlice from '../component/Filters/FiltersSlice';
-import todoListSlice from '../component/TodoList/TodoListSlice';
+import filtersSlice from './features/FiltersSlice';
+import todoListSlice from './features/TodoListSlice';
 // Khong can compireducer
 const store = configureStore({
     reducer: {

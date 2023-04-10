@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 // redux core
 // import { addTodo } from '../../redux/actions';
 // redux tool
-import todoListSlice from './TodoListSlice';
+import todoListSlice from '../../redux/features/TodoListSlice';
 import { useState } from 'react';
 import { todoRemainingSelector } from '../../redux/selector';
 const TodoList = () => {

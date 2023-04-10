@@ -2,7 +2,7 @@ import { Col, Row, Input, Typography, Radio, Select, Tag } from 'antd';
 import { useState } from 'react';
 import {useDispatch} from 'react-redux'
 // import { searchFilterChange } from '../../redux/actions';
-import filtersSlice from './FiltersSlice';
+import filtersSlice from '../../redux/features/FiltersSlice';
 const { Search } = Input;
 
 const Filters = () => {
