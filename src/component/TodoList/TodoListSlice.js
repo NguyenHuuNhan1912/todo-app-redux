@@ -24,8 +24,8 @@ const todoListSlice = createSlice({
     name: 'todoList',
     initialState: [
         { id: 1, name: 'Learn HTML', completed: false, priority: 'Medium' },
-        { id: 2, name: 'Learn CSS', completed: true, priority: 'High' },
-        { id: 3, name: 'Learn JS', completed: false, priority: 'Low' },
+        { id: 1, name: 'Learn CSS', completed: true, priority: 'High' },
+        { id: 1, name: 'Learn JS', completed: false, priority: 'Low' },
     ],
     reducers: {
         addTodo: (state, action) => {
